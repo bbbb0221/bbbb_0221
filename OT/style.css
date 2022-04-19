@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    }
+.profile-img {
+    background-color: beige;
+    height : 200px;
+       }
+.profile-img > div {
+    width : 100px;
+    height : 100px;
+    margin : 0 auto;
+    padding: 33px 0;
+}
+.profile-img > div img {
+    width : 100%;
+    border-radius: 10%;
+    
+}
+.info {
+    text-align: center;
+    margin: 20px auto;
+    width: 220px;
+}
+.info h1 {
+    text-align: center;
+    margin: auto;
+    width : 200px;
+    margin-top: 30px;
+    }
+.info h2 {
+    margin: 10%;
+}
+.info ul li {
+    text-align: left;
+    
+    font-size: 18px;
+    padding-left : 50px;
+    }
+.favorite {
+    margin-top: 50px;
+    text-align: center;
+}
+.favorite h3 {
+    margin: 30px;
+}
+.favorite img {
+    margin-top: 0px;
+    width: 300px;
+    height: 300px;
+}
