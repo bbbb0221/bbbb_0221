@@ -44,8 +44,16 @@
 .favorite h3 {
     margin: 30px;
 }
-.favorite img {
-    margin-top: 0px;
-    width: 300px;
-    height: 300px;
+div img {
+    
+    margin : auto;
+    width: 400px;
+    display: block;
+
 }
+a {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+}
+
