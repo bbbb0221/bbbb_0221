@@ -1,3 +1,12 @@
+@keyframes bingle {
+    from {
+        transform: rotateY(0);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -55,5 +64,18 @@ a {
     display: flex;
     justify-content: center;
     font-size: 45px;
+    transition: color 2s ease-in-out;
+}
+a:hover{
+    color:red;
+    animation: bingle 2s;
 }
 
+.profile_bar {
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    width: 100%;
+    background-color: beige;
+    
+}
