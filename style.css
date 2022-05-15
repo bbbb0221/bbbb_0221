@@ -64,11 +64,11 @@ a {
     display: flex;
     justify-content: center;
     font-size: 45px;
-    transition: color 2s ease-in-out;
+    transition: color 1s ease-in-out;
 }
-a:hover{
-    color:red;
-    animation: bingle 2s;
+a:hover {
+    animation: bingle 2s ease-in-out;
+    color: red;
 }
 
 .profile_bar {
